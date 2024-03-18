@@ -60,7 +60,7 @@ body {
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     header {
       padding: 15px;
     }
@@ -70,6 +70,25 @@ body {
     .contact {
       padding: 15px;
     }
+      @media (max-width: 780px) {
+    header {
+      padding: 10px;
+    }
+   header {
+    background-color: blueviolet;
+   }
+    .introduction,
+    .skills,
+    .contact {
+      padding: 10px;
+      margin: 5px 0;
+    }
+  
+    .skills li {
+      padding: 8px;
+      margin-bottom: 3px;
+    }
+  }
   
     .skills li {
       margin-bottom: 5px;
